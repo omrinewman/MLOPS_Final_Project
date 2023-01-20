@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-from sklearn.datasets import load_boston
 
 class DbLoader(): 
     def __init__(self) -> None:
