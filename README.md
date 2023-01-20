@@ -23,10 +23,10 @@ For the Boston dataset, run the following command:
 ```
 python pipeline.py "Boston"
 ```
-During the pipeline's run, the results will be shown on screen, the final results graphs will be saves in the Pics directory
+During the pipeline's run, the results will be shown on screen, the final results graphs will be saves in the 'Pics' directory
 
 ## Using the Model for Prediction:
-In order to use the pipeline for predictions on a CSV file, run the following command: (you may used the provided samples.csv file as an example)
+In order to use the pipeline for predictions on a CSV file, run the following command: (you may used the provided samples.csv file as an example (Relevant to the French dataset)
 ``` 
 python predict.py samples.csv
 ```
