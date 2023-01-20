@@ -4,7 +4,7 @@ This project contains source code and supporting files for MLOPS final project p
 ## Deployment
 
 1. Please use Python 3.8.10
-2. Copy/clone all content to a directory
+2. Copy/clone all content to a directory - you may press on the green button "Code" and press "Download zip"
 3. In the directory, create a virtual environment using the provided requirements.txt file, by running the following lines:
 
 ```
