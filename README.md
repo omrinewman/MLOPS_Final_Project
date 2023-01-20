@@ -3,13 +3,14 @@ This project contains source code and supporting files for MLOPS final project p
 
 ## Deployment
 
-1. Please use Python 3.8.10
-2. Copy/clone all content to a directory - you may press on the green button "Code" and press "Download zip"
-3. In the directory, create a virtual environment using the provided requirements.txt file, by running the following lines:
-
+1. Copy/clone all content to a directory - you may press on the green button "Code" above then press "Download zip" and extract the content.
+2. Create and activate a virtual environment by running the following commands:
 ```
 python -m venv mlops_env 
 mlops_env\Scripts\activate.bat
+```
+3. Install the required packages by using the provided requirements.txt file by running the following command.
+```
 pip install -r requirements.txt
 ```
 
@@ -30,5 +31,11 @@ In order to use the pipeline for predictions on a CSV file, run the following co
 ``` 
 python predict.py samples.csv
 ```
+## Cleanup
+1. In order to remove the virtual environment, first deactivate it by running the following command and then delete the virtual environment folder.
 
+```
+deactivate
+```
+2. Delete the folder with the code content
 ## Good luck!
