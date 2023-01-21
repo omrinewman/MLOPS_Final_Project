@@ -26,8 +26,10 @@ python pipeline.py "Boston"
 ```
 During the pipeline's run, the results will be shown on screen, the final results graphs will be saves in the 'Pics' directory
 
-## Using the Model for Prediction:
-In order to use the pipeline for predictions on a CSV file, run the following command: (you may used the provided samples.csv file as an example (Relevant to the French dataset)
+## Production Model for Customer:
+Please follow this section only after running the pipeline!
+
+In order to use the pipeline for predictions on a CSV file, run the following command: (you may used the provided samples.csv file as an example (**Relevant to the French dataset**))
 ``` 
 python predict.py samples.csv
 ```
